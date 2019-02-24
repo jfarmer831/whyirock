@@ -1,0 +1,135 @@
+.body {
+	background-image: url("img/girl-pigtails.jpg");
+	background-color: #cccccc;
+	height: 1000px;
+	width: 1000px;
+}
+
+.container-fluid {
+	background-color: white;
+	display: block;
+	font-family: Sans-Serif, Times, serif;
+	padding: 1%;
+	margin: 1%, 1%, 1%, 1%;
+}
+.container {
+	width: 100%;
+	height: auto;
+	margin-top: .5%;
+}
+.left {
+	float: left;
+	width: 170px;
+	height: 170px;
+	margin-left: 3%;
+	margin-top: 2.7%;	 
+}
+.right {
+	width: 50%;
+	height: 5%;
+	float: left;
+	color: rgb(91,1,126);
+	font-family: Parkavenue, cursive;
+	font-size: 2.5em;	
+}
+#page-content {
+	color: black;
+	font-size: 3em;
+	text-align: center;
+	font-family: Parkavenue;
+	margin: 2%;
+	padding: 2%;
+}
+#mission {
+	color: rgb(91,1,126);
+	font-size: 2em;
+	text-align: left;
+	font-family: Parkavenue;
+	margin: 2%;
+	padding: 2%;
+	background-color: none;
+}
+
+#donate {
+	background-color: rgb(91,1,126); 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	padding: 1% 1%;
+	font-size: 2em;
+	color: pink; 
+	cursor: pointer;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 1px silver;	
+}
+#donte:hover {
+	background-color:pink;
+}
+#donate:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#ul-main {
+	background-color: none;
+}
+ul {
+  list-style-type: none;
+  margin-top: 3%;
+  width: 100%; 
+  padding-right: 20%;
+  padding-bottom: .1%;
+  overflow: hidden;
+  background-color: black;
+}
+li {
+  float: left;
+  margin-right: 5%;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10%;
+}
+/* Change the link color to #111 (black) on hover */
+
+#carouselExampleInterval {
+	margin-top: .2%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 55%;
+	height: 25%;
+	text-align: center;
+	border-style: solid;
+	border-width: 2%;
+	border-color: black;	
+}
+#logo {
+	width: 8%;
+	height: 8%;
+}
+#sponsor-logos {
+	display: inline-block;
+	width: 96%;
+	height:auto;
+	margin: auto;
+	text-align: center;
+}
+#committee {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+	width: 100%;
+	height:auto;
+	margin: auto;
+	text-align: center;
+}
+.img_tile {
+	width: 25%;
+	height: 25%;
+	padding: 1%;
+}
+
